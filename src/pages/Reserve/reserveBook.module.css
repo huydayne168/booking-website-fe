@@ -1,0 +1,178 @@
+.reserve-container {
+    width: 1024px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 30px;
+}
+
+/* Top */
+.top {
+    display: flex;
+    /* gap: 4.8rem; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-left {
+    flex: 6.5;
+}
+
+.top-left h1 {
+    margin-bottom: 12px;
+}
+
+.top-right {
+    flex: 2.5;
+    padding: 2.4rem;
+    background-color: #ebf3ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.top-right div {
+    font-size: 26px;
+}
+
+.top-right .price {
+    font-weight: 700;
+}
+
+.top-right button {
+    padding: 12px 6px;
+    background-color: #0071c2;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+/* Form */
+.date {
+    position: relative;
+}
+
+.reserve-form {
+    width: 100%;
+}
+
+.reserve-form form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reserve-form form h2 {
+    margin-bottom: 24px;
+}
+
+.user-form {
+    width: 50%;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+.controls label {
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.controls input {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+/* Bottom - check rooms */
+.select-room {
+    width: 100%;
+}
+
+.select-room h2 {
+    margin-bottom: 24px;
+}
+
+.rooms-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.room {
+    /* flex: 1 0 50%; */
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    margin-bottom: 18px;
+    padding: 12px;
+}
+
+.room-title {
+    font-weight: 600;
+}
+
+.room-choose {
+    display: flex;
+    gap: 8px;
+}
+
+.room-checkbox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.room-maxpp {
+    font-size: 12px;
+}
+
+.room-maxpp span {
+    font-weight: 600;
+}
+
+.room-price {
+    font-weight: 600;
+}
+
+/* total bill */
+.total-bill {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Payment */
+.payment {
+    margin-bottom: 72px;
+}
+.payment form {
+    display: flex;
+    gap: 48px;
+}
+
+.payment select,
+.payment button {
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.payment select {
+    padding: 6px;
+    background-color: #eee;
+}
+
+.payment button {
+    padding: 6px 32px;
+    font-size: 16px;
+    background-color: #0071c2;
+    color: #fff;
+    border: none;
+}

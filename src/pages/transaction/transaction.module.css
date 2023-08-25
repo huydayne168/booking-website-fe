@@ -1,0 +1,10 @@
+.transaction-container {
+    width: 1024px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.transaction-table {
+    margin-bottom: 250px;
+}

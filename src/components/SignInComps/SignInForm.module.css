@@ -1,0 +1,44 @@
+.sign-in-actions {
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-in-actions form {
+    width: 22rem;
+    padding: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.2rem;
+    border: 2px #003580 solid;
+    border-radius: 1.2rem;
+}
+
+.sign-in-actions form h1 {
+    font-size: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+
+.sign-in-actions input {
+    box-sizing: border-box;
+    padding: 0.8rem;
+}
+
+.sign-in-actions input[type="password"] {
+    margin-bottom: 2.4rem;
+}
+
+.sign-in-actions input,
+.sign-in-actions button {
+    height: 2.8rem;
+    border-radius: 0.6rem;
+}
+
+.sign-in-actions button {
+    background-color: #003580;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+}

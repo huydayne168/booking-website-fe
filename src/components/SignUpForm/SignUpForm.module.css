@@ -1,0 +1,44 @@
+.sign-up-actions {
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-actions form {
+    width: 22rem;
+    padding: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.2rem;
+    border: 2px #003580 solid;
+    border-radius: 1.2rem;
+}
+
+.sign-up-actions form h1 {
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+}
+
+.sign-up-actions input {
+    box-sizing: border-box;
+    padding: 0.8rem;
+}
+
+.sign-up-actions input[type="email"] {
+    margin-bottom: 1.8rem;
+}
+
+.sign-up-actions input,
+.sign-up-actions button {
+    height: 2.8rem;
+    border-radius: 0.6rem;
+}
+
+.sign-up-actions button {
+    background-color: #003580;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
